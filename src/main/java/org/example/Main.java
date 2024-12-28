@@ -14,6 +14,10 @@ import java.util.List;
 public class Main {
     public static void main(String[] args){
 
+//        String dataFilePath =  "C:\\Users\\RedmiPro\\Desktop\\test\\path-to-csv.csv";
+//        String inputFilePath = "C:\\Users\\RedmiPro\\Desktop\\test\\input.txt";
+//        String outputFilePath = "C:\\Users\\RedmiPro\\Desktop\\test\\output.json";
+
         String dataFilePath = null;
         String inputFilePath = null;
         String outputFilePath = null;
@@ -51,6 +55,7 @@ public class Main {
 
             JSONFileWriting jsonFileWriting = new JSONFileWriting();
             jsonFileWriting.writeOutput(outputFilePath, initEndTime - initStartTime, searchResults);
+
 
         }
         catch (Exception exception){

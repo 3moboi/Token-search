@@ -12,4 +12,8 @@ public class ReportSearchResult {
         this.result = result;
         this.time = time;
     }
+
+    public String toString(){
+        return "Запрос "+ search + "\nРезультат "+result.toString() + "\n";
+    }
 }
