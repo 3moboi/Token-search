@@ -21,4 +21,4 @@
 10 = {1,3,4,5,9,10} (чисто для понимания)
 вывод: id документа с порядковым номером 1, id документа с порядковым номером 4
 
-запустить с командной строки java -jar search.jar  --data данные.csv --input-file запросы.txt --output-file результаты.json 
+запустить с командной строки java -jar search-1.0-SNAPSHOT-jar-with-dependencies.jar  --data данные.csv --input-file запросы.txt --output-file результаты.json 
